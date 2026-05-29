@@ -1,0 +1,61 @@
+
+
+.menu-principal {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 9px 5%;
+    background-color: #6c71ffe3;
+    color: rgb(110, 14, 165);
+    z-index: 10;
+}
+
+.logo {
+    color: rgb(110, 14, 165);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.menu-links a {
+    padding: 8px 16px;
+    border-radius: 5px ;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.menu-links a:hover {
+    background-color: rgb(180, 128, 243);
+}
+
+
+
+
+
+content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.card-perritos{
+    font-size: 1, 2 rem;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    background-color: rgb(170, 149, 255);
+    background: linear-gradient(135deg, #6c73f6, #3a43f9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.menu-principal{
+    
+}

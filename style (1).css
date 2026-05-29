@@ -1,0 +1,225 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(244, 245, 248);
+}
+
+
+.menu-principal {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 9px 5%;
+    background-color: #6c71ffe3;
+    color: rgb(110, 14, 165);
+    z-index: 10;
+}
+
+.logo {
+    color: rgb(110, 14, 165);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.menu-links a {
+    padding: 8px 16px;
+    border-radius: 5px ;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.menu-links a:hover {
+    background-color: rgb(180, 128, 243);
+}
+
+.button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.9rem 1.2rem;
+    background-color: #96b6fadc;
+    color: rgb(110, 14, 165);
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.power {
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+    font-family: Georgia, serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.perritos-fondo {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 100%;
+    z-index: 1;
+    animation: moverFotos 10s infinite;
+}
+
+.perrito-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.power-content {
+    max-width: 720px;
+    position: relative;
+    z-index: 2;
+}
+
+.power h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px #738af0;
+    color: #080808;
+}
+
+.power p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px rgb(41, 45, 245)3f3;
+    color: #000000;
+}
+
+.container {
+    width: 92%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    
+}
+
+.section h2 {
+    font-size: rem;
+    color: rgb(110, 14, 165);
+    text-align: center;
+}
+
+.huella {
+    width: 45px;
+    height: 45px;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+
+
+.card,
+.card1 {
+    flex: 1;
+    padding: 1.5rem;
+    border: 4px solid #a274e3;
+    border-radius: 16px;
+    box-shadow: 0 5px 12px #936eef;
+    transition: all 0.3s ease;
+}
+
+
+.cardd {
+    background-color: #fcfaff;
+    color: rgb(32, 31, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.card:hover {
+    background-color: #bfaaff;
+    color: rgb(24, 23, 21);
+    transform: scale(1.06);
+}
+
+
+.card {
+    background-color: #fafaf8;
+    color: rgb(4, 4, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    padding: 1.8rem;
+}
+
+.card1:hover {
+    background-color: rgb(208, 174, 249);
+    color: rgb(24, 23, 21);
+    transform: scale(1.06);
+}
+
+
+.card h3,
+.card1 h3 {
+    color: rgb(110, 14, 165);
+    margin-top: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+    margin-top: 9rem;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(110, 14, 165);
+    color: white;
+}
+
+@keyframes moverFotos {
+
+    0%,
+    25% {
+        transform: translateX(0);
+    }
+
+    35%,
+    60% {
+        transform: translateX(-33.33%);
+    }
+
+    70%,
+    95% {
+        transform: translateX(-66.66%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.perrito {
+    font-size: 1, 2 rem;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    background-color: rgb(170, 149, 255);
+    background: linear-gradient(135deg, #6c73f6, #3a43f9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
