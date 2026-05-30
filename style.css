@@ -95,15 +95,26 @@
     margin: 0 0 1.2rem 0;
 }
 
-.estado {
+.estado-perrito {
     display: inline-block;
-    background-color: #4cd137;
     color: white;
     padding: 4px 12px;
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
+}
+
+.estado-perrito[data-estado] {
+    background-color: gray;
+}
+
+.estado-perrito[data-estado="disponible" i]{
+    background-color: green;
+}
+
+.estado-perrito[data-estado="adoptado" i]{
+    background-color: red;
 }
 
 .perfil {
