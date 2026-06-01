@@ -1,4 +1,9 @@
-
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f9f6f0
+}
 
 .menu-principal {
     position: sticky;
@@ -130,4 +135,12 @@
 
 .perfil:hover {
     background-color: rgb(180, 128, 243);
+}
+.footer {
+    margin-top: 9rem;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(110, 14, 165);
+    color: white;
 }

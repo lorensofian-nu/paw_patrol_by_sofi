@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Paw Patrol By Sofii</title>
+    <link rel="stylesheet" href="style_formulario.css">
+</head>
+
+<body>
+
+    <nav class="menu-principal">
+        <a class="logo" href="index (1).html">
+            <img src="images/huellaa..png" class="huella" alt="Huella"> Paw patrol By Sofii
+        </a>
+        <div class="menu-links">
+            <a href="index (1).html">Home</a>
+            <a href="index_galery.html#galeria">Galeria</a>
+            <a href="index (1).html#servicios">Servicios</a>
+            <a href="index_Adopta.html">Adopta</a>
+            <a href="index (1).html#nosotros">Nosotros</a>
+            <a href="index_formulario.html">Contactos</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h1>Formulario de Contacto</h1>
+        <p class="desc">¿Tienes dudas, quieres adoptar o apoyarnos? Déjanos tu mensaje y te responderemos lo antes posible.</p>
+
+        <form action="#" method="POST" class="form">
+            <p class="aviso">* Campos obligatorios</p>
+
+            <div class="campo">
+                <label for="nombre">Nombre <span>*</span></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+
+            <div class="campo">
+                <label for="apellidos">Apellidos <span>*</span></label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" required>
+            </div>
+
+            <div class="campo">
+                <label for="ciudad">Ciudad <span>*</span></label>
+                <input type="text" id="ciudad" name="ciudad" placeholder="Ej. Cúcuta" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">Correo electrónico <span>*</span></label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefono">Teléfono <span class="opcional">(Opcional)</span></label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ej. 3257893893">
+            </div>
+
+            <div class="campo">
+                <label for="tipo-consulta">Tipo de consulta / envío <span>*</span></label>
+                <select id="tipo-consulta" name="tipo_consulta" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="adopcion">Adopción</option>
+                    <option value="donacion">Donación</option>
+                    <option value="voluntariado">Voluntariado</option>
+                    <option value="informacion">Información general</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="mensaje">Mensaje <span></span></label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Enviar Mensaje</button>
+        </form>
+    </main>
+
+    <footer id="contactos" class="footer">
+        <p>Paw patrol by Sofii - Teléfono: 325789389398 - Correo electrónico: paw_patrol_by_Sofii@gmail.com</p>
+    </footer>
+
+</body>
+
+</html>
+
+```
