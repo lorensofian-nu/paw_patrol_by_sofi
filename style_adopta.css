@@ -24,6 +24,11 @@ body {
     font-size: 1.2rem;
 }
 
+.huella {
+    width: 45px;
+    height: 45px;
+}
+
 .menu-links {
     display: flex;
     gap: 16px;
@@ -143,4 +148,4 @@ body {
     text-align: center;
     background-color: rgb(110, 14, 165);
     color: white;
-}
+} 
