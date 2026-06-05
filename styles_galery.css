@@ -46,6 +46,10 @@ body {
     background-color: rgb(180, 128, 243);
 }
 
+.huella {
+    width: 45px;
+    height: 45px;
+}
 
 .container {
     max-width: 1200px;
