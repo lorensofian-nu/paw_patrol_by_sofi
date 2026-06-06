@@ -211,6 +211,14 @@ h2 {
     font-weight: bold;
     font-size: 2.3rem;
 }
+.footer {
+    margin-top: 9rem;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(110, 14, 165);
+    color: white;
+}
 
 
 @media (min-width: 560px) {

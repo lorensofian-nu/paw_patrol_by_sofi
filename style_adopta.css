@@ -150,7 +150,6 @@ body {
     text-align: center;
     background-color: rgb(110, 14, 165);
     color: white;
-    position:sticky;
 }
 @media (min-width: 768px) {
     .menu-principal {
