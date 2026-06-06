@@ -2,9 +2,9 @@ body {
     box-sizing: border-box;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#f9f6f0
+    background-color: #f9f6f0;
+    background-image: url(images/findis.jpeg);
 }
-
 
 .menu-principal {
     position: sticky;
@@ -33,7 +33,7 @@ body {
 
 .menu-links a {
     padding: 8px 16px;
-    border-radius: 5px ;
+    border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
@@ -41,10 +41,12 @@ body {
 .menu-links a:hover {
     background-color: rgb(180, 128, 243);
 }
+
 .huella {
     width: 45px;
     height: 45px;
 }
+
 .container {
     max-width: 1200px;
     margin: 40px auto;
@@ -53,7 +55,7 @@ body {
 }
 
 .impacto {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     color: #8632a0;
     margin-bottom: 10px;
 }
@@ -66,11 +68,9 @@ body {
 
 .cards {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
-
-
 
 .card,
 .card1 {
@@ -78,10 +78,9 @@ body {
     padding: 1.5rem;
     border: 4px solid #a274e3;
     border-radius: 16px;
-    box-shadow: 0 5px 12px #936eef;
+    box-shadow: 0 5px 12px #b7a1ec;
     transition: all 0.3s ease;
 }
-
 
 .cardd {
     background-color: #fcfaff;
@@ -92,34 +91,99 @@ body {
     justify-content: center;
 }
 
-
 .card:hover {
     background-color: #bfaaff;
     color: rgb(24, 23, 21);
     transform: scale(1.06);
 }
 
-
 .card {
     background-color: #fafaf8;
     color: rgb(4, 4, 4);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.1rem;
-    padding: 1.8rem;
+    padding: 1.9rem;
 }
 
 .card1:hover {
-    background-color: rgb(208, 174, 249);
+    background-color: rgb(226, 204, 253);
     color: rgb(24, 23, 21);
     transform: scale(1.06);
 }
 
-
-.card h2,
-.card1 h2{
-    color: rgb(110, 14, 165);
+.card1 h2 {
+    color: rgb(79, 22, 170);
     margin-top: 0;
-    font-size: 3.0rem;
+    font-size: 3rem;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card1 p {
+    color: rgb(71, 65, 75);
+    margin-top: 0;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.tiempo {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+}
+
+.servicios,h2 {
+    font-size: 1.8rem;
+    color: #8632a0;
+    margin-bottom: 18px;
+}
+
+.metricas {
+    width: 95%;
+    background-color: #e5ddf7;
+    border: 4px solid #a274e3;
+    box-shadow: 0 6px 18px rgb(146, 113, 63);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: left;
+    margin-bottom: 40px;
+    padding: 20px;
+
+
+}
+
+.doggi1 {
+    margin: 15px 0;
+}
+
+.doggi1 span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.barra {
+    height: 40px;
+    border-radius: 15px;
+}
+
+.rescate {
+    width: 80%;
+    background-color: #9c84f0;
+}
+
+.vacunados {
+    width: 60%;
+    background-color: #9c84f0;
+}
+
+.hogar {
+    width: 20%;
+    background-color: #9c84f0;
+}
+
+.Esterilizados {
+    width: 40%;
+    background-color: #9c84f0;
 }
