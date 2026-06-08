@@ -1,11 +1,11 @@
 * {
-     box-sizing: border-box 
-    };
-body {
-    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f6f0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(images/findis.jpeg);
 }
 
@@ -153,12 +153,13 @@ h2 {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    gap: 18px;
     justify-content: left;
     margin-bottom: 40px;
-    padding: 20px;
     width: 100%;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 10px 0;
 }
 
 .doggi1 {
