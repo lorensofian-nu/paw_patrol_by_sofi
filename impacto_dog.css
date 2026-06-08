@@ -1,3 +1,6 @@
+* {
+     box-sizing: border-box 
+    };
 body {
     box-sizing: border-box;
     margin: 0;
@@ -92,6 +95,8 @@ body {
     grid-template-columns: 1fr;
     gap: 1rem;
     justify-content: center;
+    width: 100%;     
+    overflow: hidden;
 }
 
 .card:hover {
@@ -152,11 +157,15 @@ h2 {
     justify-content: left;
     margin-bottom: 40px;
     padding: 20px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .doggi1 {
     margin: 15px 0;
     display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .doggi1 span {
@@ -172,6 +181,7 @@ h2 {
     height: 40px;
     border-radius: 15px;
     overflow: hidden;
+    width: 100%;
 }
 
 .rescate {
@@ -201,6 +211,7 @@ h2 {
 
 .button {
     display: inline-block;
+    max-width: 100%;
     margin-top: 2rem;
     padding: 0.9rem 1.2rem;
     background-color: #9b3df3f8;
@@ -208,7 +219,7 @@ h2 {
     text-decoration: none;
     border-radius: 90px;
     font-weight: bold;
-    font-size: 2.3rem;
+    font-size: 1.4rem;
 }
 
 .footer {
