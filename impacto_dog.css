@@ -237,6 +237,31 @@ h2 {
         grid-template-columns: repeat(2, 1fr);
 
     }
+     .impacto {
+        font-size: 1.8rem;
+    }
+ 
+    .descripcion {
+        font-size: 1.2rem;
+    }
+ 
+    .card1 h2 {
+        font-size: 2rem;
+    }
+ 
+    .button {
+        font-size: 1.1rem;
+        padding: 0.7rem 1rem;
+    }
+ 
+    .menu-links {
+        gap: 8px;
+    }
+ 
+    .menu-links a {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+    }
 }
 
 @media (min-width: 1024px) {
