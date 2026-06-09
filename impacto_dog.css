@@ -16,7 +16,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 9px 5%;
-    background-color: #6c71ffe3;
+    background-color: #6c71ffed;
     color: rgb(110, 14, 165);
     z-index: 10;
 }
@@ -129,7 +129,7 @@ body {
 .card1 p {
     color: rgb(71, 65, 75);
     margin-top: 0;
-    font-size: 1rem;
+    font-size: 1,5rem;
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -157,10 +157,9 @@ h2 {
     margin-bottom: 40px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 25px;
-    padding: 10px 0;
-}
+    padding: 10px;
+} 
 
 .doggi1 {
     margin: 15px 0;
@@ -175,6 +174,7 @@ h2 {
     text-align: left;
     font-size: 1.5rem;
     color: #8632a0;
+    padding: 5px;
 }
 
 
@@ -187,27 +187,28 @@ h2 {
 
 .rescate {
     width: 80%;
-    background-color: #9c84f0;
+    background-color:  #6c71ffe3;
 }
 
 .vacunados {
     width: 60%;
-    background-color: #9c84f0;
+    background-color:  #6c71ffe3;
 }
 
 .hogar {
     width: 20%;
-    background-color: #9c84f0;
+    background-color: #6c71ffe3;
 }
 
 .Esterilizados {
     width: 40%;
-    background-color: #9c84f0;
+    background-color:  #6c71ffe3;
 }
 
 .justificacion p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.4rem;
+    padding: 70px;
 }
 
 .button {
@@ -215,7 +216,7 @@ h2 {
     max-width: 100%;
     margin-top: 2rem;
     padding: 0.9rem 1.2rem;
-    background-color: #9b3df3f8;
+    background-color:  #6c71ffe3;
     color: rgb(250, 248, 252);
     text-decoration: none;
     border-radius: 90px;
@@ -226,9 +227,9 @@ h2 {
 .footer {
     margin-top: 9rem;
     width: 100%;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
-    background-color: rgb(110, 14, 165);
+    background-color: #6c71ffe3;
     color: white;
 }
 
